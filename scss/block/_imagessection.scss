@@ -1,0 +1,101 @@
+.section-images {
+  background-color:#030303;;
+}
+
+.images-headding {
+  @include font-style(400, 50px, 75px) ;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 0;
+}
+
+.images-box {
+ text-align: center;
+}
+
+.wrapper-img {
+  display: inline-block;
+}
+
+.img-wrapper {
+  display: none;
+}
+
+
+@media only screen and (max-width: 700px) {
+
+  .images-wrapper-one {
+    display: none;
+  }
+
+  .img-wrapper {
+    display: flex;
+    margin-left: 100px;
+  }
+}
+
+@media only screen and (max-width: 625px) {
+
+  .images-wrapper-one {
+    display: none;
+  }
+
+  .img-wrapper {
+    display: flex;
+    margin-left: 50px;
+  }
+}
+
+@media only screen and (max-width: 530px) {
+
+  .images-wrapper-one {
+    display: none;
+  }
+
+  .img-wrapper {
+    display: flex;
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (max-width: 485px) {
+
+  .images-wrapper-one {
+    display: none;
+  }
+
+  .img-wrapper {
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+
+  .images-wrapper-one {
+    display: none;
+  }
+
+  .img-wrapper {
+    display: flex;
+  }
+
+  .mona-lisa-img {
+    width: 320px;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+
+  .images-wrapper-one {
+    display: none;
+  }
+
+  .img-wrapper {
+    display: flex;
+  }
+
+  .mona-lisa-img {
+    width: 280px;
+  }
+}

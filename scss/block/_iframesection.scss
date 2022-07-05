@@ -1,0 +1,220 @@
+.iframe-box {
+  padding-top: 75px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.iframe-wrapper {
+  display: flex;
+  margin-bottom: 75px;
+}
+
+.wrapper-iframe-title {
+  @include font-style(400, 80px, 90px) ;
+  margin: 0;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #9d8665;
+  margin-right: 114px;
+}
+
+.wrapper-iframe-text {
+  @include font-style(300, 22px, 38px) ;
+  color: #000000;
+  width: 720px;
+  display: inline-block;
+  margin: 0;
+}
+
+@media only screen and (max-width: 1470px) {
+
+
+  .wrapper-iframe-title {
+  @include font-style(400, 50px, 75px) ;
+  margin: 0;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #9d8665;
+  margin-right: 600px;
+}
+
+  .wrapper-iframe-text {
+    display: none;
+  }
+
+  .iframe-box {
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+  } 
+
+  .iframe-one {
+    width: 984px;
+    height: 444px;
+  }
+
+  .iframe-two {
+    width: 300px;
+    height: 170px;
+  }
+
+  .iframe-three {
+    width: 300px;
+    height: 170px;
+  }
+}
+
+
+@media only screen and (max-width: 1040px) {
+
+
+  .wrapper-iframe-title {
+  @include font-style(400, 50px, 75px) ;
+  margin: 0;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #9d8665;
+  margin-right: 300px;
+}
+
+  .wrapper-iframe-text {
+    display: none;
+  }
+
+  .iframe-box {
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+  } 
+
+  .iframe-one {
+    width: 728px;
+    height: 386px;
+  }
+
+  .iframe-two {
+    width: 354px;
+    height: 199px;
+  }
+
+  .iframe-three {
+  display: none;
+  } 
+}
+
+@media only screen and (max-width: 760px) {
+
+
+  .wrapper-iframe-title {
+  @include font-style(400, 28px, 40px) ;
+  margin: 0;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #9d8665;
+  margin-right: 100px;
+}
+
+  .wrapper-iframe-text {
+    display: none;
+  }
+
+  .iframe-box {
+    padding-top: 36px;
+    display: flex;
+    flex-direction: column;
+  } 
+
+  .iframe-one {
+    width: 380px;
+    height: 226px;
+  }
+
+  .iframe-two {
+    width: 180px;
+    height: 101px;
+  }
+
+  .iframe-three {
+  display: none;
+  } 
+}
+
+@media only screen and (max-width: 411px) {
+
+
+  .wrapper-iframe-title {
+  @include font-style(400, 28px, 40px) ;
+  margin: 0;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #9d8665;
+  margin-right: 80px;
+}
+
+  .wrapper-iframe-text {
+    display: none;
+  }
+
+  .iframe-box {
+    padding-top: 36px;
+    display: flex;
+    flex-direction: column;
+  } 
+
+  .iframe-one {
+    width: 340px;
+    height: 200px;
+  }
+
+  .iframe-two {
+    width: 160px;
+    height: 80px;
+  }
+
+  .iframe-three {
+  display: none;
+  } 
+}
+
+@media only screen and (max-width: 375px) {
+
+
+  .wrapper-iframe-title {
+  @include font-style(400, 28px, 40px) ;
+  margin: 0;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #9d8665;
+  margin-right: 30px;
+}
+
+  .wrapper-iframe-text {
+    display: none;
+  }
+
+  .iframe-box {
+    padding-top: 36px;
+    display: flex;
+    flex-direction: column;
+  } 
+
+  .iframe-one {
+    width: 280px;
+    height: 150px;
+  }
+
+  .iframe-two {
+    width: 130px;
+    height: 60px;
+  }
+
+  .iframe-three {
+  display: none;
+  } 
+}
+
+
+
+
+
